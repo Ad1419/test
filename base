@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav {
+			background-color: #666;
+			color: white;
+			padding: 10px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		nav li {
+			float: left;
+		}
+		nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover {
+			background-color: #111;
+		}
+		article {
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 2px 2px 5px #ccc;
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Blog</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<article>
+		<h2>My First Blog Post</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel felis id lorem gravida lobortis ut sit amet ipsum. Nullam feugiat nunc auctor odio feugiat volutpat. Quisque pulvinar tincidunt mi, vel bibendum ipsum malesuada nec. Sed vitae mi vel ipsum rutrum bibendum sed ac ipsum. Aliquam sit amet dolor in nulla auctor viverra. Suspendisse eget eros ultrices, lobortis ipsum nec, tempor nunc. Vestibulum convallis arcu nec libero aliquet, sed rutrum nulla tristique. Sed pulvinar odio ut ante malesuada vulputate. Aliquam facilisis justo quis dui mollis aliquam. Vestibulum posuere dolor id lacus faucibus venenatis. Donec et bibendum ipsum. Nullam posuere sapien ac nibh bibendum, ac vestibulum mauris consequat.</p>
+	</article>
+	<article>
+		<h2>My Second Blog Post</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel felis id lorem gravida lobortis ut sit amet ipsum. Nullam feugiat nunc auctor odio feugiat volutpat. Quisque pulvinar tincidunt mi, vel bibendum ipsum malesuada nec. Sed vitae mi vel ipsum rutrum bibendum sed ac ipsum. Aliquam sit amet dolor in nulla auctor viverra. Suspendisse eget eros ultrices, lobortis ipsum nec, tempor nunc. Vestibulum convallis arcu nec libero aliquet, sed
